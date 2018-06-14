@@ -20,10 +20,10 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="32dp"
+        android:textSize="32sp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:text="TextView" />
+        android:text="@string/textview" />
 
     <ImageView
         android:id="@+id/iv_wheel"
@@ -32,7 +32,8 @@
         android:layout_height="300dp"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        app:srcCompat="@drawable/ic_wheel" />
+        app:srcCompat="@drawable/ic_wheel"
+        android:contentDescription="@string/todo2"/>
 
     <ImageView
         android:id="@+id/ic_pointer"
@@ -42,6 +43,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="32dp"
         android:scaleType="centerInside"
-        app:srcCompat="@drawable/ic_pointer" />
+        app:srcCompat="@drawable/ic_pointer"
+        android:contentDescription="@string/todo1" />
 
 </RelativeLayout>
